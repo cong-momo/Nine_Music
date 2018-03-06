@@ -1,0 +1,23 @@
+.footer{
+	width:100%;
+	height:188px;
+	background:#130f0f;
+	border-top:4px solid #03a9f4;
+}
+.footer p{
+	text-align:center;
+	color:#999;
+}
+.footer .p1{
+	line-height:32px;
+	margin-top:30px;
+}
+.footer .p1 span{
+	margin:0 20px;
+}
+.footer .p1 img{
+	margin:20px;
+}
+.footer .p2{
+	margin-top:15px;
+}

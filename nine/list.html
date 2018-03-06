@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+           initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE-edge">
+		<title>list</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/list.css">
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="bg_box">
+			<div class="main">
+				<div class="record_list">
+					<div class="record_label">
+						<dl>
+							<dt>流派</dt>
+							<dd class="on">
+								<a href="" onclick="disc.loadbygenre(0,this)">全部</a>
+							</dd>
+							<dd>
+								<a href="" onclick="disc.loadbygenre(1,this)">流行</a>
+							</dd>
+							<dd>
+								<a href="" onclick="disc.loadbygenre(3,this)">民谣</a>
+							</dd>
+							<dd>
+								<a href="">电子</a>
+							</dd>
+							<dd>
+								<a href="">摇滚</a>
+							</dd>
+							<dd>
+								<a href="">金属</a>
+							</dd>
+							<dd>
+								<a href="">说唱</a>
+							</dd>
+							<dd>
+								<a href="">R&B</a>
+							</dd>
+							<dd>
+								<a href="">爵士</a>
+							</dd>
+							<dd>
+								<a href="">蓝调</a>
+							</dd>
+							<dd>
+								<a href="">纯音乐</a>
+							</dd>
+							<dd>
+								<a href="">新世纪</a>
+							</dd>
+							<dd>
+								<a href="">电台</a>
+							</dd>
+							<dd>
+								<a href="">儿歌</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>价格</dt>
+							<dd class="on">
+								<a href="">全部</a>
+							</dd>
+							<dd>
+								<a href="">免费</a>
+							</dd>
+							<dd>
+								<a href="">付费</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>排序</dt>
+							<dd class="on">
+								<a href="">最热</a>
+							</dd>
+							<dd>
+								<a href="">最新</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="record_box">
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/1.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/2.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">我们的青春</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">无脚鸟——刘奇</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/3.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">岁月不老歌</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">岁月不老歌</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/4.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">我不知道</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">小安</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/5.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">予我</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">金晓文</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/6.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">路</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">李知蹊</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/7.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">【咯咯 污不停】</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">樱炎</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/8.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">时光帆</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">Toby果</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/9.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">崔磊音乐专辑</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">崔磊</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/10.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">【情为何物】</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">樱炎</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="record_box">
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/1.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/2.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/3.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/4.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/5.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/6.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/7.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/8.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/9.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+						<dl class="new_music">
+							<a href="">
+								<dt>
+									<img src="img/10.jpg" alt=""/>
+								</dt>
+							</a>
+							<dd class="new_music_title">
+								<a href="">之外</a>
+							</dd>
+							<dd class="new_music_name">
+								<a href="">陈小雄</a>
+							</dd>
+						</dl>
+					</div>
+					<p class="seemore" id="morp">
+						<a href="" class="on">查看更多</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+		</div>
+		//<script>
+			//$(function(){
+				//var type=null;
+				//if("1"==type){
+					//priceType="1";
+				//}else if{"2"==type
+					//orderBy="1";
+				//}
+				//disc.loddisc("add");
+			//})
+		//</script>
+		<script src="js/ajax.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/footer.js"></script>
+	</body>
+</html>

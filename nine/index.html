@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>九天音乐</title>
+ </head>
+ <body>
+		<div>
+			<link rel="stylesheet" href="css/index.css">
+			<link rel="stylesheet" href="css/base.css">
+			<link rel="stylesheet" href="css/header.css">
+			<link rel="stylesheet" href="css/footer.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">
+			<script src="js/jquery-3.2.1.min.js"></script>
+			<script src="js/swiper-3.4.2.jquery.min.js"></script>
+		</div>
+		<div>
+			<div id="header"></div>
+		</div>
+		<div id="solid">
+			<ul class="banner_ul">
+				<!-- <li></li> -->
+			</ul>
+			<div class="btt">
+				<span class="hover"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="main">
+			<!--即时热门单曲-->
+			<div class="box1">
+			  <div class="box1-left">
+					<a class="activityhref" href="#">
+						<img src="imgs/listen.jpg" width="510" height="261" id="activityimg" alt="">
+					</a>
+					<a id="radiohref" href="#">
+					  <img class="img2" width="510" height="111" src="imgs/2.png" alt="">
+					</a>
+				</div>
+				<div class="box1-right">
+					<h3 class="titleh3">即时热门单曲
+						<a id="playallhref" href="">
+							播放全部
+						</a>
+					</h3>
+					<ul class="hotmusic" id="listeningul">
+						<li>
+							<div>
+								<dl>
+									<dt>
+										<a href="">北极光</a>
+									</dt>
+									<dd>
+										<a href="">陈蓉</a>
+									</dd>
+								</dl>
+								<span><em>9874</em>人在听</span>
+							</div>	
+						</li>
+						<li>
+						<div>
+								<dl>
+									<dt>
+										<a href="">狐狸</a>
+									</dt>
+									<dd>
+										<a href="">薛之谦</a>
+									</dd>
+								</dl>
+								<span><em>8750</em>人在听</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<dl>
+									<dt>
+										<a href="">朋友心兄弟情</a>
+									</dt>
+									<dd>
+										<a href="">刘兵</a>
+									</dd>
+								</dl>
+								<span><em>8862</em>人在听</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<dl>
+									<dt>
+										<a href="">末路狂花</a>
+									</dt>
+									<dd>
+										<a href="">迷镜乐队</a>
+									</dd>
+								</dl>
+								<span><em>7210</em>人在听</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<dl>
+									<dt>
+										<a href="">言不由衷</a>
+									</dt>
+									<dd>
+										<a href="">徐佳莹</a>
+									</dd>
+								</dl>
+								<span><em>7699</em>人在听</span>
+							</div>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			<!--推荐音乐人-->
+			<div class="box2" id="musiciandiv">
+				<h3 class="titleh3">推荐音乐人
+					<a href="">查看全部</a>
+				</h3>
+				<dl class="recom">
+					<dt>
+						<a href="">
+							<div>
+								<img src="imgs/xiaotong.jpg" alt="">
+							</div>
+							<span>夏小桐</span>
+							<em>民谣</em>
+						</a>
+					</dt>
+					<dd>
+						<a href="">
+							夏小桐，来自威海的90后独立音乐人。<br>
+							自幼学习京剧，17岁考入上戏。<br>
+							传统与流行相结合的音乐风格。<br>
+							代表作《少年弦》《初霁》等。<br>
+						</a>
+					</dd>
+				</dl>
+				<dl class="recom">
+					<dt>
+						<a href="#">
+							<div>
+								<img src="imgs/jaha.jpg" alt="">
+							</div>
+							<span>JAHA乐队</span>
+							<em>摇滚</em>
+						</a>
+					</dt>
+					<dd>
+						<a href="#">
+							JAHA乐队，来自内蒙，成立于2015年。<br>
+							乐队以蒙古文化为创作源泉。<br>
+							以科尔沁好来宝的联韵为独特风格。<br>
+							16年发行乐队同名EP《JAHA》。
+						</a>
+					</dd>
+				</dl>
+				<dl class="recom">
+					<dt>
+						<a href="">
+							<div>
+								<img src="imgs/rose.jpg" alt="">
+							</div>
+							<span>玫瑰博士乐队</span>
+							<em>摇滚</em>
+						</a>
+					</dt>
+					<dd>
+						<a href="#">
+							Dahlia Rosea--新声代另类摇滚乐队。<br>
+							一支拥有玫瑰语言的乐队。<br>
+							90年代另类之声与现代艺术基因碰撞。<br>
+							2017发行乐队首张原创专辑《净》。
+						</a>
+					</dd>
+				</dl>		
+			</div>
+			<!--最新唱片-->
+			<div class="box3" id="newmusic">
+				<h3 class="titleh3">最新唱片
+					<a href="#">查看全部</a>
+				</h3>
+				<dl class="new_music">
+					<a href="#">
+						<dt>
+							<img src="imgs/third.jpg" alt="">
+						</dt>
+					</a>
+					<dd class="new_music_title">
+						<a href="#">在一起</a>
+					</dd>
+					<dd class="new_music_name">
+						<a href="#">三维鱼乐队</a>
+					</dd>
+				</dl>
+				<dl class="new_music">
+					<a href="#">
+						<dt>
+							<img src="imgs/timo.jpg" alt="">
+						</dt>
+					</a>
+					<dd class="new_music_title">
+						<a href="#">再见前任 (电影《前任3：再见前任》同名宣传曲)</a>
+					</dd>
+					<dd class="new_music_name">
+						<a href="#">冯提莫</a>
+					</dd>
+				</dl>
+				<dl class="new_music">
+					<a href="#">
+						<dt>
+							<img src="imgs/liu.jpg" alt="">
+						</dt>
+					</a>
+					<dd class="new_music_title">
+						<a href="#">浪里游</a>
+					</dd>
+					<dd class="new_music_name">
+						<a href="#">刘惜君</a>
+					</dd>
+				</dl>
+				<dl class="new_music">
+					<a href="#">
+						<dt>
+							<img src="imgs/light.jpg" alt="">
+						</dt>
+					</a>
+					<dd class="new_music_title">
+						<a href="#">北极光</a>
+					</dd>
+					<dd class="new_music_name">
+						<a href="#">陈蓉</a>
+					</dd>
+				</dl>
+				<dl class="new_music">
+					<a href="#">
+						<dt>
+							<img src="imgs/kong.jpg" alt="">
+						</dt>
+					</a>
+					<dd class="new_music_title">
+						<a href="#">盼空</a>
+					</dd>
+					<dd class="new_music_name">
+						<a href="#">刘捷</a>
+					</dd>
+				</dl>
+			</div>
+			<!--热门付费-->
+			<div class="box4"></div>
+			<!--排行榜-->
+			<div class="box5">
+				<div class="box5_1">
+					<h3>九天新歌
+						<a href="#">
+							<img src="imgs/bofang.png" alt="">
+						</a>
+					</h3>
+					<ul>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/waa.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>大不了AA</span>
+								</a>
+								<a href="#">
+									<em>王蓉</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/sunbailun.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>活就活到底 (电视剧《碧海雄心》片头曲)</span>
+								</a>
+								<a href="#">
+									<em>孙伯纶</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/THE.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>安心安心</span>
+								</a>
+								<a href="#">
+									<em>达闻西乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>哭崖山</span>
+								</a>
+								<a href="#">
+									<em>甩手掌柜乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>零</span>
+								</a>
+								<a href="#">
+									<em>欧阳倩</em>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="box5_1">
+					<h3>九天金曲榜
+						<a href="#">
+							<img src="imgs/bofang.png" alt="">
+						</a>
+					</h3>
+					<ul>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/waa.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>大不了AA</span>
+								</a>
+								<a href="#">
+									<em>王蓉</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/sunbailun.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>活就活到底 (电视剧《碧海雄心》片头曲)</span>
+								</a>
+								<a href="#">
+									<em>孙伯纶</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/THE.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>安心安心</span>
+								</a>
+								<a href="#">
+									<em>达闻西乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>哭崖山</span>
+								</a>
+								<a href="#">
+									<em>甩手掌柜乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>零</span>
+								</a>
+								<a href="#">
+									<em>欧阳倩</em>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="box5_1">
+					<h3>九天热度榜
+						<a href="#">
+							<img src="imgs/bofang.png" alt="">
+						</a>
+					</h3>
+					<ul>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/waa.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>大不了AA</span>
+								</a>
+								<a href="#">
+									<em>王蓉</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/sunbailun.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>活就活到底 (电视剧《碧海雄心》片头曲)</span>
+								</a>
+								<a href="#">
+									<em>孙伯纶</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<img src="imgs/THE.jpg" alt="">
+								</a>
+								<a href="#">
+									<span>安心安心</span>
+								</a>
+								<a href="#">
+									<em>达闻西乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>哭崖山</span>
+								</a>
+								<a href="#">
+									<em>甩手掌柜乐队</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">
+									<span>零</span>
+								</a>
+								<a href="#">
+									<em>欧阳倩</em>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--热门MV-->
+			<div class="box6">
+				<h3 class="titleh3">热门视频
+					<a href="#">查看更多</a>
+				</h3>
+				<div id="mvdiv">
+					<ul class="box6_mv box6_mv1">
+					 <li class="mv_img">
+						<a href="#">
+							<img class="bg" src="imgs/long.jpg" alt="">
+							<div class="bg_mv">
+								<img src="imgs/video.png" alt="">
+							</div>
+						</a>
+					 </li>
+					 <a href="#">
+						<li class="mv_title">源远流长 寻根之旅，雷佳民族民间音乐会</li>
+					 </a>
+					 <li class="mv_name">
+							<a href="#">编辑精选</a>
+					 </li>
+					</ul>
+					<ul class="box6_mv box_mv1">
+						<li class="mv_img">
+						<a href="#">
+							<img class="bg" src="imgs/hoop.jpg" alt="">
+							<div class="bg_mv">
+								<img src="imgs/video.png" alt="">
+							</div>
+						</a>
+					 </li>
+					 <a href="#">
+						<li class="mv_title">圈圈宝贝给你一个粉红色的圣诞节</li>
+					 </a>
+					 <li class="mv_name">
+							<a href="#">编辑精选</a>
+					 </li>
+					</ul>
+				</div>
+			</div>
+			<!--联系我们-->
+			<div class="contactus">
+				<img src="imgs/contactus.jpg" alt="">
+			</div>
+		</div>
+		<div id="footer">
+		</div>
+		<script src="js/ajax.js"></script>
+		<script src="js/banner.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/footer.js"></script>
+ </body>
+</html>

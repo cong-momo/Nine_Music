@@ -1,0 +1,72 @@
+.main{
+	width:1000px;
+	margin:0 auto;6
+	padding-bottom:50px;
+	overflow:hidden;
+}
+.record_list{
+	width:100%;
+	float:left;
+	padding:10px 0;
+}
+.record_label{
+	width:100%;
+	margin:10px 0;
+}
+.record_label dl{
+	width:100%;
+	float:left;
+}
+.record_label dt{
+	width:50px;
+	float:left;
+	line-height:44px;
+	color:#0aa1ed;
+	font-size:16px;
+}
+.record_label dd{
+	float:left;
+	padding:0 17px;
+	font-size:15px;
+	line-height: 44px;
+}
+.record_label .on a{
+  color:#e85252;
+}
+.record_box .new_music{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.new_music{
+    width:164px;
+    float:left;
+    margin-right: 36px;
+}
+.new_music dt{
+    width:164px;
+    height:159px;
+    position:relative;
+    overflow:hidden;
+}
+.new_music dt img{
+    width:159px;
+    height:159px;
+}
+.seemore{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-top:20px;
+}
+.seemore a{
+	width:100%;
+	color:#e85252;
+}
+.new_music dt:hover img{position: absolute; animation: moved .8s linear;}
+@keyframes moved{
+	0%{transform:scale(1)}
+	35%{transform:scale(1.1)}
+	50%{transform:scale(1.15)}
+	75%{transform:scale(1.25)}
+	100%{transform:scale(1)}
+}

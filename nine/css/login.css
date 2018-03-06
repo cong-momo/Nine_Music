@@ -1,0 +1,58 @@
+:before,:after{
+    box-sizing: border-box;
+}
+.clearfix:before{
+    content:'';
+    display:table;
+}
+.affix{
+    position:fixed;
+}
+.header{
+    height:72px;
+    background-color: #130f0f;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+.header .head{
+    padding:15px 20px;
+}
+.wrap{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+.header .head a>img{
+    margin-top: -6px;
+    width:167px;
+    height:50px;
+    float:left;
+}
+.header .head .nologin{
+    float:right;
+    color:#eee;;
+    font-size: 14px;
+}
+#register,#login{
+    width:75px;
+    margin:8px 0 8px 10px;
+    border-radius: 4px;
+}
+#login{
+    background-color: #333;
+}
+.nologin .btn{
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    background: #aa1e1d;
+    color:#eee;
+    padding-left: 12px;
+    text-align: center;
+}

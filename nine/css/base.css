@@ -1,0 +1,44 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote{
+	margin:0;
+	padding:0;
+	font-size: 100%;
+	font-weight: normal;
+	}
+ol, ul, li{
+	list-style: none outside none;
+	}
+a,a:active,a:hover,a:focus {
+	text-decoration: none;
+	outline:none;
+	color: #999;
+	}
+html,body {
+	height: 100%;
+	}
+input,button,textarea{
+	outline:none;
+	border:0;
+	vertical-align:middle;
+	border:0;
+	font-family:"黑体"
+	}
+input[type="submit"],input[type="reset"],input[type="button"],button {-webkit-appearance:none;border-radius:0}
+button{cursor:pointer;}
+select{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+textarea{resize:none}
+img{
+	border: 0;
+	vertical-align:middle;
+	}
+span,b,i,em{
+	display:inline-block;
+	font-style:normal
+	}
+body {
+	width: 100%;
+	min-height: 100%;
+	text-align: left;
+	font-size: 14px;
+	font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	}
